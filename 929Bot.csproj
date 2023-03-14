@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp7.0</TargetFramework>
+    <RootNamespace>_929Bot</RootNamespace>
+    <UserSecretsId>33932bed-2309-4116-b2e0-b8918859f7ee</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DSharpPlus" Version="4.3.0-nightly-01121" />
+    <PackageReference Include="DSharpPlus.CommandsNext" Version="4.3.0-nightly-01121" />
+    <PackageReference Include="DSharpPlus.Interactivity" Version="4.3.0-nightly-01121" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
+    <PackageReference Include="MongoDB.Driver" Version="2.15.0" />
+  </ItemGroup>
+
+</Project>
